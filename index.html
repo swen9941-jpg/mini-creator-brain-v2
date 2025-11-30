@@ -4,16 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini Creator Brain Test</title>
+    <title>🔥 ExploreEnjoyFire Shorts Tracker</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>🌟 Welcome to Mini Creator Brain!</h1>
-    <p>This is your first web page. You can create anything from here.</p>
+    <h1>🔥 ExploreEnjoyFire Shorts Tracker</h1>
+    <p>Click below to get a random short from your 30-day EEF plan. Used prompts are tracked!</p>
 
-    <button id="magicButton">Click Me!</button>
-    <p id="output"></p>
+    <button id="generateBtn">Load Random Short</button>
+
+    <div id="output" class="output">
+        🔥 Your short will appear here!
+    </div>
+
+    <div class="tracker">
+        Used Shorts: <span id="usedCount">0</span>/30
+    </div>
+
+    <ul id="shortList" class="short-list">
+        <!-- List of all 30 shorts will appear here -->
+    </ul>
 
     <script src="script.js"></script>
 </body>
